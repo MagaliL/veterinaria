@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin: 10%;
+}
+
+footer{
+    margin: 5%;
+}
+
+
+h1{
+    text-align: center;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #1e635c;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    align-content: center;
+}
+
+.navbar a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: large;
+
+}
+
+.navbar a:hover{
+    background-color: #835032;
+}
+
+.navbar li {
+    float: left;
+}
