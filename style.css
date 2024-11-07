@@ -1,11 +1,43 @@
+
+
+
 body{
     margin: 0px;
+    
 }
 
 main{
     margin: 10%;
+    margin-top: 0%;
+    
 }
 
+.carousel {
+    width: 90%; /* Cambia el ancho según prefieras */
+    max-width: 800px; /* Establece un ancho máximo */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  }
+
+  .carousel-item {
+    width: 100%; /* Toma todo el ancho del contenedor */
+    height: 50vh; /* Ocupa el 50% de la altura de la pantalla */
+  } 
+
+  .carousel-caption.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
 footer{
     margin: 5%;
 }
@@ -17,30 +49,7 @@ h1{
 }
 
 
-.navbar ul {
-    display: flex;
-    list-style-type: none;
-    background-color: #1e635c;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    align-content: center;
-}
-
-.navbar a{
-    color: azure;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    font-size: large;
-
-}
-
 .navbar a:hover{
-    background-color: #835032;
+    background-color:aliceblue; 
 }
 
-.navbar li {
-    float: left;
-}
