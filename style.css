@@ -37,7 +37,6 @@ nav {
     
 }
 
-
 .carousel {
     /*width: 100%;  Cambia el ancho según prefieras */
     max-width: 100%; /* Establece un ancho máximo */
@@ -46,7 +45,7 @@ nav {
 
   .carousel-item {
     width: 100%; /* Toma todo el ancho del contenedor */
-    height: 50vh; /* Ocupa el 50% de la altura de la pantalla */
+    height: 80vh; /* Ocupa el 50% de la altura de la pantalla */
   } 
 
   .carousel-caption.overlay {
@@ -64,10 +63,10 @@ nav {
     padding: 20px;
   }
   
+ 
 footer{
     margin: 5%;
 }
-
 
 h1{
     text-align: center;
